@@ -1,6 +1,7 @@
 package com.example.demo.entity;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -21,9 +22,9 @@ public class Attendance {
 	// 勤務日
 	private LocalDate workDate;
 	// 出勤時刻
-	private LocalDate clockIn;
+	private LocalDateTime clockIn;
 	// 退勤打刻
-	private LocalDate clockOut;
+	private LocalDateTime clockOut;
 	
 	protected Attendance() {}
 	
